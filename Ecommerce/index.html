@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>COINCENT.AI MART</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="search.png" alt="Search Icon" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="air.jpg" alt="Air" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">FORCE<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$1190</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="jordan.jpg" alt="Jordan" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">JORDAN<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$1490</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="blazer.png" alt="Blazer" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$1090</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="crater.jpg" alt="Crater" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$1290</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="hippie.jpg" alt="Hippie" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE<br> NEW<br> SEASON</h1>
+                <h2 class="sliderPrice">$990</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="free.jpg" alt="Free Shipping Icon" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="seven.png" alt="Return Icon" class="featureIcon">
+            <span class="featureTitle">7 DAYS RETURN</span>
+            <span class="featureDesc">Return and easy refund within 7 days.</span>
+        </div>
+        <div class="feature">
+            <img src="gift.png" alt="Gift Cards Icon" class="featureIcon">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="contact.png" alt="Contact Icon" class="featureIcon">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="product.jpg" alt="Product Image" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">FORCE</h1>
+            <h2 class="productPrice">$1190</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias assumenda dolorum doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">9</div>
+                <div class="size">10</div>
+                <div class="size">12</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Customer Details</h1>
+            <label>Name </label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <label>Pin code</label>
+            <input type="text" placeholder="621305" class="payInput">
+            <div class="payment-options">
+                <label><input type="checkbox" id="cod"> Cash on Delivery</label>
+                <label><input type="checkbox" id="onlinePayment"> Online Payment</label>
+            </div>
+            <h1 class="payTitle">Card Information</h1>
+            <div id="cardInfo" style="display: none;">
+                <div class="cardIcons">
+                    <img src="visa.png" alt="Visa Icon" class="cardIcon">
+                    <img src="mastercard.png" alt="MasterCard Icon" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+            </div>
+            <button id="orderButton" class="payButton">Order</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="galleryItem">
+            <img src="gal1.jpg" alt="Gallery Image 1" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="gal2.jpg" alt="Gallery Image 2" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="gal3.jpg" alt="Gallery Image 3" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="gal4.jpg" alt="Gallery Image 4" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="gal5.jpg" alt="Gallery Image 5" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h1 class="newsletterTitle">New Season</h1>
+        <h2 class="newsletterDesc">Get the latest updates on new season arrivals.</h2>
+        <div class="newsletterInputContainer">
+            <input type="text" placeholder="Your email">
+            <button>JOIN NOW</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerItem">
+            <img src="payment.jpg" alt="Payment Methods" class="footerImg">
+        </div>
+        <div class="footerItem">
+            <span class="footerText">© 2024 COINCENT.AI MART</span>
+            <span class="footerText">Privacy Policy</span>
+            <span class="footerText">Terms of Use</span>
+        </div>
+        <div class="footerItem">
+            <span class="footerText">info@coincent.ai</span>
+            <span class="footerText">+1 123 456 7890</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

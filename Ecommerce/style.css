@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.navTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navItem img {
+    height: 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.searchIcon {
+    cursor: pointer;
+}
+
+.limitedOffer {
+    color: red;
+    font-weight: bold;
+}
+
+.navBottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menuItem {
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.sliderWrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.sliderItem {
+    min-width: 100%;
+    position: relative;
+}
+
+.sliderImg {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.sliderBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sliderTitle {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.sliderPrice {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.buyButton {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    padding: 10px 20px;
+    background-color: #ff0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.featureIcon {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.productImg {
+    width: 40%;
+}
+
+.productDetails {
+    width: 50%;
+}
+
+.productTitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.productDesc {
+    margin-bottom: 20px;
+}
+
+.colors, .sizes {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.color, .size {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.productButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.payment {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cardIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.payButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.close {
+    color: red;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.galleryItem {
+    flex: 1;
+}
+
+.galleryImg {
+    width: 100%;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.newsletterTitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletterDesc {
+    margin-bottom: 20px;
+}
+
+.newsletterInputContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footerItem {
+    text-align: center;
+}
+
+.footerText {
+    display: block;
+    margin-bottom: 10px;
+}
